@@ -1,0 +1,374 @@
+body {
+	background-color: #EEEEEE;
+	margin: 0;
+}
+/*header and navigation section*/
+header {
+	border-bottom: 2px solid black;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-bottom: 10px;
+	
+}
+
+header h2 {
+	color: #D7761E;
+	position: relative;
+	top: 10px;
+	
+}
+
+i {
+	padding: 0 10px;
+}
+
+header h2 span {
+	color: black;
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+header nav {
+
+}
+
+header > nav > ul {
+	right: 50px;
+	top: 5px;
+	position: absolute;
+
+		
+}
+
+header nav ul li {
+	display: inline-block;
+	padding: 20px;
+	
+}
+
+header nav ul li a {
+	font-family: 'Varela Round', sans-serif;
+	text-decoration: none;
+	color: #D7761E;
+	cursor: pointer;
+}
+/*end of header and navigation section*/
+
+/*about me section*/
+#aboutMe p {
+	text-align: center;
+	font-family: 'Varela Round', sans-serif;
+
+}
+
+#aboutMe span {
+	color: #D7761E;
+}
+
+#aboutMe img {
+	border-radius: 10px;
+	height: 250px;
+	width: 95%;
+	margin: 0 3%;
+}
+
+
+
+.about{
+	width: 50%;
+	font-size: 12px;
+	
+}
+
+.about h3 {
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	color: #D7761E;
+}
+
+.about p {
+	font-family: 'Varela Round', sans-serif;
+	line-height: 20px;
+}
+
+.work {
+	float: right;
+	font-size: 12px;
+	width: 50%;
+	bottom: 155px;
+	position: relative;
+	
+	
+}
+
+.work h3 {
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	color: #D7761E;
+}
+
+.work p {
+	font-family: 'Varela Round', sans-serif;
+	line-height: 20px;
+}
+	
+/*photos section*/
+#photos {
+	background-color: #EEEEEE;
+	height: 700px;
+	width: 100%;
+}
+
+#photos > p {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	color: #D7761E;
+}
+
+.row1 {
+	height: 300px;
+	width: 100%;
+
+}
+
+
+.row1 img {
+	border-radius: 10px;
+}
+
+.row1 h3 {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 14px;
+}
+
+.row1 p {
+	color: #D7761E;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 14px;
+}
+.photo1 {
+	height: 170px;
+	background-color: #fff;
+	border-radius: 10px;
+	margin-left: 5%;
+	margin-top: 5%;
+	position: absolute;
+	width: 15%;
+}
+
+.photo1 img {
+	border-radius: 10px;
+}
+
+.photo1 h3 {
+	margin-left: 3%;
+	margin-top: 0;
+}
+
+.photo1 p {
+	margin-left: 3%;
+	margin-top: 0;
+	padding: 0;
+}
+
+.photo2 {
+	background-color: #fff;
+	border-radius: 10px;
+	height: 170px;
+	margin-left: 25%;
+	margin-top: 5%;
+	position: absolute;
+	width: 15%;
+}
+
+.photo2 h3 {
+	margin-left: 3%;
+	margin-top: 0;
+}
+
+.photo2 p {
+	margin-left: 3%;
+	margin-top: 0;
+	padding: 0;
+}
+
+.photo3 {
+	background-color: #fff;
+	border-radius: 10px;
+	height: 170px;
+	margin-left: 45%;
+	margin-top: 5%;
+	position: absolute;
+	width: 15%;
+}
+
+.photo3 h3 {
+	margin-left: 3%;
+	margin-top: 0;
+}
+
+.photo3 p {
+	margin-left: 3%;
+	margin-top: 0;
+	padding: 0;
+}
+
+.photo4 {
+	background-color: #fff;
+	border-radius: 10px;
+	height: 170px;
+	margin-left: 65%;
+	margin-top: 5%;
+	position: absolute;
+	width: 15%;
+}
+
+.photo4 h3 {
+	margin-left: 3%;
+	margin-top: 0;
+}
+
+.photo4 p {
+	margin-left: 3%;
+	margin-top: 0;
+	padding: 0;
+}
+
+.photo5 {
+	background-color: #fff;
+	border-radius: 10px;
+	height: 170px;
+	margin-left: 85%;
+	margin-top: 5%;
+	position: absolute;
+	width: 15%;
+}
+
+.photo5 h3 {
+	margin-left: 3%;
+	margin-top: 0;
+}
+
+.photo5 p {
+	margin-left: 3%;
+	margin-top: 0;
+	padding: 0;
+}
+
+.row2 {
+	height: 300px;
+}
+
+.row2 img {
+	border-radius: 10px;
+}
+
+.row2 h3 {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 14px;
+	margin-left: 3%;
+	margin-top: 0;
+}
+
+.row2 p {
+	color: #D7761E;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 14px;
+}
+
+
+
+/* footer section */
+footer {
+	background-color: #2d2d2d;
+	clear: both;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+footer h3 {
+	color: #D7761E;
+	font-family: 'Lobster', cursive;
+	margin-left: 1%;
+}
+
+input {
+	margin-left: 1%;
+	margin-top: 10px;
+	width: 20%;
+}
+
+textarea {
+	margin-left: 1%;
+	margin-top: 10px;
+	width: 40%;
+}
+
+button {
+	background-color: #2d2d2d;
+	border: none;
+	color: #fff;
+	margin-left: 1%;
+	padding: 10px 0;
+	font-family: 'Varela Round', sans-serif;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+footer ul {
+	float: right;
+	position: relative;
+	margin: auto 0;
+ 	bottom: 100px;
+ 	margin-right: 3%;
+}
+
+footer  ul li {
+	display: inline-block;
+}
+
+footer ul li a {
+	background-color:  #D7761E;
+	color: #2d2d2d;
+	border-radius: 50%;
+	margin: 5px;
+	cursor: pointer;
+}
+
+/*media queries*/
+@media (max-width: 605px){
+	header h2 span {
+		display: none;
+	}
+	header ul {
+		margin-right: 0;
+		clear: top;
+	}
+
+	header ul li {
+		padding-right: 0;
+	}
+
+	header ul li a {
+		float: right;
+		font-size: 10px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
